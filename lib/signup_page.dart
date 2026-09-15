@@ -34,12 +34,14 @@ class _SignupScreenState extends State<SignupScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFADD8E6),
       appBar: AppBar(
         leading: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Image.asset(
             'lib/assets/images/learner_pulse-removebg-preview.png',
-            height: 28,
+            height:500,
+            width: 500,
             fit: BoxFit.contain,
           ),
         ),

@@ -19,7 +19,7 @@ class LearnerPulseApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        scaffoldBackgroundColor: const Color(0xFFF5F7FB),
+        scaffoldBackgroundColor: const Color(0xFFADD8E6),
         colorScheme: ColorScheme.fromSeed(
           seedColor: brandBlue,
           brightness: Brightness.light,
